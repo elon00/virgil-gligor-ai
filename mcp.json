@@ -1,0 +1,51 @@
+{
+  "name": "virgil-gligor-ai-mcp",
+  "version": "1.0.0",
+  "description": "Virgil Gligor AI Model Context Protocol Server for Autonomous Micro-Hypervisor Isolation, Zero-Trust Access Control, Applied Operating System Security & Trustworthy Execution Protocol",
+  "tools": [
+    {
+      "name": "audit_micro_hypervisor_isolation",
+      "description": "Verify hardware memory virtualization and micro-hypervisor paging isolation tables against root-level privilege escalation",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "hypervisor_binary": {
+            "type": "string"
+          },
+          "isolation_level": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "hypervisor_binary"
+        ]
+      }
+    },
+    {
+      "name": "disburse_zero_trust_research_grant",
+      "description": "Trigger automated micro-escrow releases for micro-hypervisor verification, verifiable trust establishment, and denial-of-service resilience models",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
